@@ -1,0 +1,3 @@
+interface:
+  display_name: "Personal Context Engine Diagnostics"
+  short_description: "Read-only diagnosis of misleading PCE status and recovery risk"

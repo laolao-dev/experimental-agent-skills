@@ -1,0 +1,61 @@
+{
+  "project": "P4",
+  "version": "v0.1.0-alpha",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 94,
+      "sha256": "003ab602f40762a9d3e02df9738220fc0a907e39b3f061301c1b2c4177d0e2de"
+    },
+    {
+      "path": "PUBLICATION_SCOPE.md",
+      "bytes": 235,
+      "sha256": "4ba5cd22f9a71368776c70f3f6c30b5459fe45f6870561b46521050ec5fcdc4c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1810,
+      "sha256": "1a5634cfc0ce217b9de9ff0309209a4f64ed98c568dfd98bcaf4844d0f8a567d"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 288,
+      "sha256": "486995d6d7051025d5eeb702b83dbe3e92d9e61312759dadf71d703ddb6f021b"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 611,
+      "sha256": "10ff08100e00e086a503f26affdb0c5a6a907c110a9f5b6ffd3edcd43a993f95"
+    },
+    {
+      "path": "skills/experience-distiller/SKILL.md",
+      "bytes": 6122,
+      "sha256": "66d65167f2f34ea72630e3436f6f57e38e43736546dc8a0bad63fc8cbe0e7c97"
+    },
+    {
+      "path": "skills/experience-distiller/agents/openai.yaml",
+      "bytes": 131,
+      "sha256": "5ca35946e1c83c0dcc6dca49d93d97c2e52f5ba936fd5d673e9e9190d7d1dd87"
+    },
+    {
+      "path": "skills/personal-context-engine-diagnostics/SKILL.md",
+      "bytes": 6903,
+      "sha256": "1864a1d7e064465160856e1e52251d744ed355f06a6635554e7a6fdd52748d24"
+    },
+    {
+      "path": "skills/personal-context-engine-diagnostics/agents/openai.yaml",
+      "bytes": 151,
+      "sha256": "aa213533d3f2c459565e11c2340da0adfc6ffb538996b7d31c5deeb19543f017"
+    },
+    {
+      "path": "skills/skill-router/SKILL.md",
+      "bytes": 5650,
+      "sha256": "53d7a17bb2e083c774d1e4b155038c2f531ccb264ee91c1e8eaae89148bb6bbb"
+    },
+    {
+      "path": "skills/skill-router/agents/openai.yaml",
+      "bytes": 113,
+      "sha256": "dc60a72f515252bceb7657c9729a6896cdf3c7f30251398ae37a77cdea02f429"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Skill Router"
+  short_description: "Choose the minimum sufficient Skills for a task"

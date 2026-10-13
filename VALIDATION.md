@@ -1,0 +1,3 @@
+# Validation boundary
+
+Publication checks (2026-10-13 JST): all three cleaned SKILL.md files have a valid opening/closing frontmatter block, matching skill name and nonempty description; agent metadata is present. Private Notion links and machine-specific identities are absent from the allowlisted files. Original installed versions previously passed their structural validator, as recorded by the project's Current Status; that historical validation is not a new invocation test. No deterministic activation or complete self-evolution loop is claimed. Runtime smoke: not applicable to instruction-only files.
