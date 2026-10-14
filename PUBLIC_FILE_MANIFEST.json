@@ -1,6 +1,13 @@
 {
   "project": "P4",
-  "version": "v0.1.0-alpha",
+  "repository": "https://github.com/laolao-dev/experimental-agent-skills",
+  "version": "v0.1.0",
+  "release_type": "FINAL ARCHIVE RELEASE",
+  "source_public_commit": "211f0c6994a634e59ec082587bcf8f9dd138835d",
+  "excludes": [
+    "PUBLIC_FILE_MANIFEST.json",
+    "SHA256SUMS"
+  ],
   "files": [
     {
       "path": ".gitignore",
@@ -8,14 +15,29 @@
       "sha256": "003ab602f40762a9d3e02df9738220fc0a907e39b3f061301c1b2c4177d0e2de"
     },
     {
+      "path": "CHANGELOG.md",
+      "bytes": 722,
+      "sha256": "2e11a7afab331801b5c19769a7e8fe9ababf7dee5f3d16ab07f96395fe890391"
+    },
+    {
       "path": "PUBLICATION_SCOPE.md",
-      "bytes": 235,
-      "sha256": "4ba5cd22f9a71368776c70f3f6c30b5459fe45f6870561b46521050ec5fcdc4c"
+      "bytes": 819,
+      "sha256": "ff53283603c6cc451465456344b74391cea0d1487e55fdecc90f1e52c5a691a0"
     },
     {
       "path": "README.md",
-      "bytes": 1810,
-      "sha256": "1a5634cfc0ce217b9de9ff0309209a4f64ed98c568dfd98bcaf4844d0f8a567d"
+      "bytes": 2475,
+      "sha256": "0d337cf6733a2e5f0381bf9cddf1b1b6543a5004c38d20df5e9f19a9218a601f"
+    },
+    {
+      "path": "RELEASE_ASSETS.md",
+      "bytes": 1200,
+      "sha256": "10d1b2c21c4d29c4cddb2401582290773e0349ef1618ca9870585c902ff342ca"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1349,
+      "sha256": "d20753f294914d0031eb6da1b1d610637069451e4da705b7976375464ecdf3df"
     },
     {
       "path": "RIGHTS.md",
@@ -24,8 +46,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 611,
-      "sha256": "10ff08100e00e086a503f26affdb0c5a6a907c110a9f5b6ffd3edcd43a993f95"
+      "bytes": 1632,
+      "sha256": "f07cdf24dbb7f2dbb89306162a31385b0a5144899df897f9b66b8eb797e85a74"
     },
     {
       "path": "skills/experience-distiller/SKILL.md",

@@ -1,5 +1,13 @@
 # Experimental agent skills
 
+## FINAL ARCHIVE RELEASE — v0.1.0
+
+This is the final archive of the currently completed public scope, dated 2026-10-14. It does not imply future maintenance, production maturity, commercial validation, or renewed development.
+
+Existing Skills passed their individual historical validations. Router selection and negative-control tests passed. Deterministic Skill-to-Skill activation is UNSUPPORTED. Model-led loading/execution remains UNVERIFIED. The complete automatic evolution loop has NOT PASSED acceptance.
+
+See CHANGELOG.md, RELEASE_NOTES.md, RELEASE_ASSETS.md, PUBLIC_FILE_MANIFEST.json and SHA256SUMS for release scope, validation and integrity records.
+
 Three small instruction workflows developed while working on agent tooling:
 
 - **Experience Distiller** reviews evidenced incidents and proposes reusable workflow candidates.
