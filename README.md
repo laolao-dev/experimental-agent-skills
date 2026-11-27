@@ -1,27 +1,27 @@
-# Experimental agent skills
+# Experimental Agent Skills
 
-## FINAL ARCHIVE RELEASE — v0.1.0
+Three experimental `SKILL.md` instruction workflows for `SKILL.md`-compatible coding agents: task-to-skill routing, incident-to-workflow distillation, and read-only context diagnostics.
 
-This is the final archive of the currently completed public scope, dated 2026-10-14. It does not imply future maintenance, production maturity, commercial validation, or renewed development.
+**Status:** Experimental, not maintained
 
-Existing Skills passed their individual historical validations. Router selection and negative-control tests passed. Deterministic Skill-to-Skill activation is UNSUPPORTED. Model-led loading/execution remains UNVERIFIED. The complete automatic evolution loop has NOT PASSED acceptance.
+## Why
 
-See CHANGELOG.md, RELEASE_NOTES.md, RELEASE_ASSETS.md, PUBLIC_FILE_MANIFEST.json and SHA256SUMS for release scope, validation and integrity records.
+As personal coding agents accumulate dozens of custom skills, naive keyword matching loads irrelevant instructions or triggers destructive recovery steps on stale status reports. Writing explicit trigger gates, hard exclusions, and read-only diagnostic checklists helps bound what an agent loads and executes. This repository shares three sanitized `SKILL.md` specifications extracted from local agent-tooling experiments.
 
-Three small instruction workflows developed while working on agent tooling:
+## Quickstart
 
-- **Experience Distiller** reviews evidenced incidents and proposes reusable workflow candidates.
-- **Skill Router** selects the smallest relevant set of available skills, respecting their actual triggers and exclusions.
-- **Personal Context Engine Diagnostics** performs read-only diagnosis before a misleading status report leads to destructive recovery.
+This repository contains static Markdown skill definitions (no executable runtime). Inspect the files directly or copy an individual folder into an agent skill directory (such as `~/.codex/skills/`):
 
-## Install and use
+- [skills/skill-router/SKILL.md](skills/skill-router/SKILL.md) — selects the minimum sufficient set of installed skills using explicit trigger, exclusion, project-scope, and overlap gates.
+- [skills/experience-distiller/SKILL.md](skills/experience-distiller/SKILL.md) — reviews evidenced debugging/incident notes and proposes candidate reusable workflows without auto-installing them.
+- [skills/personal-context-engine-diagnostics/SKILL.md](skills/personal-context-engine-diagnostics/SKILL.md) — enforces read-only evidence checks before acting on a degraded memory/status report.
 
-Copy an individual directory from `skills/` into your agent's supported skill directory, commonly `~/.codex/skills/`. Inspect it before installation. This repository does not modify your installed skills or hook configuration. The workflows need an agent capable of reading SKILL.md; optional memory and project-source tools must be supplied by your environment.
+## Limitations
 
-Example requests: “Use Experience Distiller to review this month's verified incidents”; “Use Skill Router to choose the minimum skills for this task”; “Use Personal Context Engine Diagnostics to investigate this status discrepancy using read-only evidence.”
+- **Instruction-only prompts, not deterministic code:** Compliance depends entirely on the host model reading and following `SKILL.md`; deterministic skill-to-skill invocation is not supported by these files, and live model-led execution is not benchmarked here (see [VALIDATION.md](VALIDATION.md) for structural frontmatter checks).
+- **Environment-dependent references:** Several boundary examples inside the prompts name local skills or memory services (`Supermemory`, `PCE`, Notion status pages) that must be adapted or supplied by your own environment.
+- **No automated skill-evolution loop:** Candidate generation and installation remain manual human-reviewed steps.
 
-## Validation and limitations
+## License
 
-The installed originals previously passed a structural validator. This publication checks the cleaned copies' frontmatter, file structure, and removal of private references; see VALIDATION.md. It does not demonstrate deterministic skill activation or a complete automatic skill-evolution loop. Diagnostics cannot confirm a live fault without authoritative local evidence. Configure your own project sources and incident library.
-
-Private project links and instance-specific incident details have been removed. No additional redistribution license is granted; see RIGHTS.md. [Issues](https://github.com/laolao-dev/experimental-agent-skills/issues) are welcome.
+No license yet (see [RIGHTS.md](RIGHTS.md)).
